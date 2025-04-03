@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1051924189567",
+    "project_id": "greengrass-6aeef",
+    "storage_bucket": "greengrass-6aeef.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051924189567:android:2fe5d5a9f23af7ce44ca4a",
+        "android_client_info": {
+          "package_name": "com.example.greengrass"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASWFZCOxQgQo6pwJT5Ik7B_HxM_MDISJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
