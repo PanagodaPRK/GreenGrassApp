@@ -1,0 +1,62 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "greengrass-6aeef",
+          "appId": "1:1051924189567:android:2fe5d5a9f23af7ce44ca4a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "greengrass-6aeef", 
+          "appId": "1:1051924189567:ios:82c420b6ad669eef44ca4a",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "greengrass-6aeef",
+          "appId": "1:1051924189567:ios:82c420b6ad669eef44ca4a", 
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "greengrass-6aeef",
+          "configurations": {
+            "android": "1:1051924189567:android:2fe5d5a9f23af7ce44ca4a",
+            "ios": "1:1051924189567:ios:82c420b6ad669eef44ca4a",
+            "macos": "1:1051924189567:ios:82c420b6ad669eef44ca4a",
+            "web": "1:1051924189567:web:6309cae15d9d3bd544ca4a",
+            "windows": "1:1051924189567:web:6083115658db9e3344ca4a"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "indexes": [
+      {
+        "collectionGroup": "reviews",
+        "queryScope": "COLLECTION",
+        "fields": [
+          { "fieldPath": "mediaId", "order": "ASCENDING" },
+          { "fieldPath": "mediaType", "order": "ASCENDING" },
+          { "fieldPath": "createdAt", "order": "DESCENDING" }
+        ]
+      },
+      {
+        "collectionGroup": "comments",
+        "queryScope": "COLLECTION",
+        "fields": [
+          { "fieldPath": "reviewId", "order": "ASCENDING" },
+          { "fieldPath": "createdAt", "order": "ASCENDING" }
+        ]
+      }
+    ]
+  }
+}
